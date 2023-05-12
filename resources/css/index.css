@@ -1,0 +1,55 @@
+
+
+
+header ul{
+    display: table;
+    margin-right: 20px;
+}
+
+header ul li{
+    display: table-cell;
+    padding-left: 2rem;
+}
+
+.main-content {
+    background-color: 	silver;
+   
+    
+    justify-content: center;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    height: auto;
+    width: auto;
+    
+}
+
+.myImage {
+    height:200px;
+    width:200px;
+    position: relative;
+    left: 800px;
+    bottom: 80px;
+    
+}
+
+.description-box{
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+
+.description{
+    font-size: 30px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.contact{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
