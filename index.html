@@ -7,12 +7,32 @@
 </head>
 <body>
      <header>
-          <ul>
-    <li><a href="https://www.linkedin.com/in/william-yan-0b392b81/" target="_blank">About</a></li>
-    <li><a href="https://github.com/williammilkyan?tab=repositories" target="_blank">Projects</a></li>
-    <li>Contact</li>
-    <li>Skill</li>
-          </ul>
+          <nav>
+               <div class="navbox">
+                    <a class="navdes" href="https://www.linkedin.com/in/william-yan-0b392b81/" target="_blank">
+                         <p1>About</p1>
+                         <img class="navicon" src="./resources/pic/linkedin.png">
+                    </a>
+               </div>
+               <div class="navbox">
+                    <a class="navdes" href="https://github.com/williammilkyan?tab=repositories" target="_blank">
+                         <p1>Projects</p1>
+                         <img class="navicon" src="./resources/pic/GitHub-Mark.png">
+                    </a>
+               </div>
+               <div class="navbox" id="contactNav">
+                    <a class="navdes">
+                         <p1>Contact</p1>
+                         <img class="navicon" src="./resources/pic/contact.png">
+                    </a>
+               </div>
+               <div class="navbox">
+                    <a class="navdes" href="#skill">
+                         <p1>Skills</p1>
+                         <img class="navicon" src="./resources/pic/skillicon.webp">
+                    </a>
+               </div>
+          </nav>
      </header>
 
  <div class="main-content">
@@ -21,17 +41,27 @@
           <p class="description">A Frontend Web Developer </p>
           <p class="description">base in Vancouver, BC, Canada.</p>
      </div>
-     <img class="myImage" src="william.jpg">
- 
+          <img class="myImage" src="./resources/pic/william.jpg">
+     <div>
+          
+          <div class="skillContainer" id="skill">
+               <img class="skillBox" src="./resources/pic/htmlicon.png">
+               <img class="skillBox" src="./resources/pic/cssicon.png">
+               <img class="skillBox" src="./resources/pic/javascripticon.png">
+               <img class="skillBox" src="./resources/pic/reacticon.png">
+          </div>
+    </div>
 </div>
 
 <footer>
-     <p class="contact">email:williammilkyan@hotmail.com</p>
-     <p class="contact">phone:604-XXX-XXXX</p>
-     
+     <button id="hid">hide</button>
+     <div id="contactPlate">
+          <p class="contact">email:williammilkyan@hotmail.com</p>
+          <p class="contact">phone:604-XXX-XXXX</p>
+     </div>
 </footer>
  
-
+<script src="./resources/css/main.js"></script>
 
 
 </body>

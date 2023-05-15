@@ -1,18 +1,26 @@
-
-
-
-header ul{
-    display: table;
-    margin-right: 20px;
+nav{
+    display: flex;
+    justify-content: space-evenly;
 }
 
-header ul li{
-    display: table-cell;
-    padding-left: 2rem;
+.navbox{
+    width: 75px;
+    height: 75px;
 }
+
+.navdes{
+    margin: auto;
+}
+
+.navicon{
+    width: 50px;
+    height: 50px;
+}
+
+
 
 .main-content {
-    background-color: 	silver;
+    background-color:  silver;
    
     
     justify-content: center;
@@ -30,7 +38,8 @@ header ul li{
     position: relative;
     left: 800px;
     bottom: 80px;
-    
+    border: 2px solid white;
+    border-radius: 50%;
 }
 
 .description-box{
@@ -45,11 +54,31 @@ header ul li{
     font-weight: bold;
 }
 
+.skillContainer{
+    margin:auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.skillBox{
+    width:50px;
+    height: 50px;
+    
+}
+
 .contact{
-    display: inline-block;
+    
     margin-left: 50px;
     margin-right: 50px;;
     font-size: 20px;
     font-family: Helvetica;
     font-weight: bold;
+}
+
+#contactPlate{
+    display: none;
+}
+
+#hid{
+    display: none;
 }
