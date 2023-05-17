@@ -82,3 +82,23 @@ nav{
 #hid{
     display: none;
 }
+
+@media only screen and (max-width: 700px){
+    .navText{
+        display: none;
+    }
+
+    .myImage{
+        width: 75px;
+        height: 75px;
+    }
+
+    .skillBox{
+        width: 20px;
+        height: 20px;
+    }
+
+    .description{
+        font-size: 15px;
+    }
+}
